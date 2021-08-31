@@ -4,4 +4,4 @@ compile:
 	g++ -I src/include -c main.cpp Functionality.cpp image.cpp
 
 link: 
-	g++ bin/main.o bin/Functionality.o bin/image.o -o bin/main
+	g++ main.o Functionality.o image.o -o main
